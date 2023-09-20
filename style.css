@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+.nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+
+}
+.nav li{
+    padding-left: 30px;
+}
+header{
+    background-color:gold;
+    border: 10px solid gold;
+}
+
+.col-md-12{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social a{
+    padding-left: 10px;
+}
+
+
+.content{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+.content li img{
+    width: 370px;
+    height: 370px;
+
+}
+
+  html {
+    scroll-behavior: smooth;
+  }
+  section {
+    height: 100vh;
+    position: relative;
+  }
+  
+  a{
+    text-decoration: none;
+    color:rgb(64, 62, 62);
+    font-size: 30px;
+  }
+  .scroll-btn {
+    position: absolute;
+    height: 10em;
+    width: 6.25em;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 6.25em;
+    font-size: 10px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+  }
+  i{
+    color: azure;
+  }
+  article p{
+    font-size: 30px;
+    font-weight: 200;
+    font-family: inherit;
+    padding: 50px;
+  }
+  section{
+      background-color: whitesmoke;
+  }
+  
+ 
+ .about{
+    background-color: whitesmoke;
+ }
+ .us{
+    display: flex;
+    list-style: none;
+ }
+ .us li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 40px;
+
+ }
+ .us li p{
+    padding-top: 10px;
+    font-weight: 100;
+ }
+
+
+ .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.menu {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.menu-item h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.menu-item p {
+  font-size: 18px;
+  color: #666;
+}
+.price {
+  font-size: 20px;
+  color: #ff6600;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.contain {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+form {
+  text-align: left;
+}
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff5500;
+}
+.search-box{
+  display: flex;
+  align-items: center;
+}
+.search-box input{
+    margin-bottom: 0px;
+  }
+  .search-txt{
+    background-color:unset;
+    border: 30px;
+    padding: 10px;
+    border: 10px;
+ }
